@@ -1,11 +1,13 @@
-import FormHandle from "./class-5 FormHandle/FormHandle";
-import Conditional from "./class-6 Conditional/Conditional";
+// import FormHandle from "./class-5-form-handling/FormHandle";
+// import Conditional from "./class-6-conditional-&-list-rendering/Conditional";
+import List from "./class-6-conditional-&-list-rendering/List";
 
 function App() {
   return (
     <div>
-      <FormHandle />
-      <Conditional />
+      {/* <FormHandle /> */}
+      {/* <Conditional /> */}
+      <List />
     </div>
   );
 }
