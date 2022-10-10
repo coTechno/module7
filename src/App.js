@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import FormHandle from "./class-5 FormHandle/FormHandle";
+import Conditional from "./class-6 Conditional/Conditional";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FormHandle />
+      <Conditional />
     </div>
   );
 }
