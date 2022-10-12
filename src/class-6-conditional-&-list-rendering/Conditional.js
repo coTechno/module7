@@ -8,7 +8,7 @@ function Conditional() {
         <div>
             
             {
-                (count%2) && <p>even number = {count} </p>
+                (count%2 == 0) && <p>even number = {count} </p>
             }
 
             <button 
