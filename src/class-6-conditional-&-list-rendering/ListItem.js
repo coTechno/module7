@@ -17,7 +17,7 @@ function ListItem({id, productName, price, productImage}) {
     <div 
         style={productCardStyle}
     >
-        <img style={productImageStyle} src={productImage} alt='' />
+        <img style={productImageStyle} src={productImage} />
         <h3>{productName}</h3>
         <p>₹ {price}/- </p>
     </div>
