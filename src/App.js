@@ -9,6 +9,7 @@ import Child from './class-useContext/Child';
 
 import OmContext from './context'
 import Reducer from './class-useReducer/Reducer';
+import ChildRef from './class-useRef/ChildRef';
 
 function App() {
   const [appTheme, setAppTheme] = React.useState({
@@ -26,9 +27,9 @@ function App() {
         {/* <UseEffect /> */}
         {/* <Promise /> */}
         {/* <Child /> */}
-
-        <Reducer/>
-
+        {/* <Reducer/> */}
+        
+        <ChildRef />
 
       </div>
 
